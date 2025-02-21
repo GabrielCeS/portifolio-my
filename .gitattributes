@@ -1,0 +1,2 @@
+videos/De[[:space:]]volta[[:space:]]às[[:space:]]aulas...[[:space:]](outra[[:space:]]vez)[[:space:]]se[[:space:]]prepare[[:space:]]comigo[[:space:]]para[[:space:]]a[[:space:]]faculdade(720P_HD).mp4 filter=lfs diff=lfs merge=lfs -text
+videos/* filter=lfs diff=lfs merge=lfs -text

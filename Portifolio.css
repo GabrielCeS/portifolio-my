@@ -1,0 +1,472 @@
+/* Estilo Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(to bottom right, rgba(255,122,180,1), rgba(48,255,204,1), rgba(30,133,255,1));
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-2{
+    padding-left: 50px;
+}
+
+.btn-contato button{
+    margin-right: 35px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+.btn-2 button{
+    margin-top: 60px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+.btn-2 button:hover{
+    box-shadow: 0px 0px 6px rgb(34, 34, 34);
+    transform: scale(1.05);
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 6px rgb(34, 34, 34);
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    margin-top: 60px;
+    padding: 80px 0;
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(34, 34, 34);
+}
+
+h2.titulo span{
+    color: gold;
+    text-shadow: 1px 1px 2px rgb(34, 34, 34);
+}
+
+/* Estilo Cabesalho */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.2s;
+    text-shadow: 2px 2px 4px rgb(55, 55, 55);
+}
+
+header a:hover{
+    color: gold;
+    transform: scale(1.10)
+    
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo do topo do site */
+
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    padding-left: 50px;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 4px rgb(34, 34, 34);
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    padding-left: 5px;
+    color: gold;
+    text-shadow: 3px 1px 4px rgb(34, 34, 34);
+}
+
+.topo-do-site .txt-topo-site p{
+    padding-left: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 1px 4px rgb(0, 0, 0);
+}
+
+.topo-do-site .img-topo-site img{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px rgb(55, 55, 55);
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 50px;
+    }
+}
+
+/* ESTILOS DAS SKILLS */
+
+section.minhas-skills{
+    padding: 40px 4%;
+}
+
+section.minhas-skills .flex{
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.minhas-skills .skills-box{
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.minhas-skills .skills-box:hover{
+    box-shadow: 0px 0px 8px rgb(34, 34, 34);
+    transform: scale(1.05);
+}
+
+.minhas-skills .skills-box img{
+    max-width: 300px;
+    height: auto;
+    justify-content: space-around;
+}
+
+.minhas-skills .skills-box p{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgb(55, 55, 55);
+}
+
+.minhas-skills .skills-box h3{
+    margin: 15px 0;
+    font-size: 26px;
+    color: gold;
+    text-shadow: 2px 2px 4px rgb(55, 55, 55);
+}
+
+/* estilo portifolio */
+
+section.portifolio{
+    padding: 40px 4%;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+}
+
+.img-import video{
+    background-size: cover;
+    border-radius: 35px;
+    box-shadow: 0px 0px 8px rgb(55, 55, 55);
+}
+
+.img-import {
+    position: relative;
+    display: inline-block;
+}
+
+.play-pause-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.img-import:hover .play-pause-btn {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* video-lado */
+
+section.video-lado{
+    padding: 25px 4%;
+}
+
+section.video-lado .flex{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video-import video{
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    box-shadow: 0px 0px 8px rgb(55, 55, 55);
+}
+
+.video-import{
+    position: relative;
+    display: inline-block;
+}
+
+.video-import:hover .play-pause-btn {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Formulario */
+
+section.formulario{
+    padding-top: 80px 4%;
+}
+
+form{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, textarea{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+form textarea{
+    resize: none;
+    height: 170px;
+}
+
+form input::placeholder, textarea::placeholder{
+    color: gold;
+}
+
+form .btn-enviar{
+    text-align: center;
+    margin: 15px;
+}
+
+form .btn-enviar input{
+    color: black;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 6px rgb(34, 34, 34);
+    transform: scale(1.05);
+}
+
+/* Estilo footer */
+
+footer{
+    padding: 60px 4%;
+}
+
+.btn-social button{
+    align-items: center;
+    margin: 0 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+.btn-social button:hover{
+    box-shadow: 0px 0px 6px rgb(34, 34, 34);
+    transform: scale(1.05);
+}
+
+footer .line-footer{
+    text-align: center;
+}
+
+.borda{
+    border-top: 2px solid rgb(0, 0, 0);
+    padding: 40px;
+}
+
+@media screen and (max-width: 1220px){
+    
+    header > .interface {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* classes gerais */
+
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* cabeçalho */
+    .meu-desktop, .btn-contato, .btn-2{
+        display: none;
+    }
+
+    /* topo do site */
+    section .topo-do-site{
+        padding: 60px 8%;
+    }
+
+    .topo-do-site .txt-topo-site h1{
+        padding-top: 120px;
+        padding-left: 35px;
+    }
+
+    .topo-do-site .txt-topo-site p{
+        padding-left: 35px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        max-width: 300px;
+    }
+    
+    /* skills */
+
+    section.minhas-skills .skills-box{
+        padding: 25px 4%;
+    }
+
+    /* portifolio */
+
+    section.portifolio {
+        padding: 8px 4%; /* Ajuste o padding para diminuir o espaço */
+        margin-bottom: 0; /* Remove qualquer margem inferior */
+    }
+
+    .img-import video{
+        width: auto;
+        height: auto;
+        max-height: 590px;
+        max-width: 330px;
+        margin: 15px;
+    }
+
+    /* video-lado */
+
+    section.video-lado {
+        padding: 8px 4%; /* Ajuste o padding para diminuir o espaço */
+        margin-top: 0; /* Remove qualquer margem superior */
+    }
+
+    .video-import video{
+        width: 100%;
+        height: 100%;
+    }
+
+    section.video-lado .flex{
+        gap: 25px;
+    }
+
+    /* formulario */
+
+    section.formulario{
+        padding: 0 6%;
+    }
+
+    /* footer */
+
+    footer{
+        padding-top: 125px;
+    }
+
+    footer.flex{
+        flex-direction: column;
+    }
+
+    footer.line-footer{
+        text-align: center;
+    }
+}

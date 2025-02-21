@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Fim Google fonts -->
+    <link rel="stylesheet" href="Portifolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>EditForPrime</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <img src="images/LOGO.png" alt="Logo">
+            </div> <!--logo-->
+
+            <nav class="meu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--BTN-CONTATO-->
+        </div> <!--inteface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    
+                    <div class="txt-topo-site">
+                        <h1>Olá, Somos EditForPrime<span>!</span></h1>
+                        <p>Aqui começa nossa jornada, Juntos!</p>
+
+                        <div class="btn-2">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div><!--btn-contato-->
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/Quanto-custa-edicao-de-video2.jpg" alt="imgvideo">
+                    </div><!--img-topo-site-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="minhas-skills">
+            <h2 class="titulo">MINHAS <span>SKILLS</span></h2>
+            <div class="flex">
+                <div class="skills-box">
+                    <img src="images/designer logo png.png" alt="">
+                    <h3>DESIGNER GRAFICO</h3>
+                    <p>Sou designer gráfico apaixonado por transformar histórias em arte. Dedico-me com atenção aos detalhes para criar peças únicas que refletem a essência de cada projeto. Meu trabalho abrange logotipos, logomarcas, posts, flyers, banners, identidade visual, material impresso, embalagens e muito mais. Sempre busco unir criatividade e estratégia para destacar marcas e conectar pessoas. Vamos juntos contar a sua história através do design?</p>
+                </div><!--skills-boxs-->
+                <div class="skills-box">
+                    <img src="images/editor logo png.png" alt="">
+                    <h3>EDITOR DE VIDEOS E IMAGENS</h3>
+                    <p>Editar vídeos e imagens é minha paixão, uma forma de transformar histórias em experiências visuais únicas. Com dedicação e cuidado nos mínimos detalhes, trabalho para criar conteúdos que emocionam e capturam a essência de cada projeto. Minha atuação inclui edição de vídeos para redes sociais, comerciais, clipes, reels, cortes de podcasts e ajustes de imagens. Para mim, cada projeto é uma oportunidade de trazer criatividade e impacto à tela. Vamos criar algo incrível juntos?</p>
+                </div> <!--skills-boxs-->
+                <div class="skills-box">
+                    <img src="images/programador logo png.png" alt="">
+                    <h3>PROGRAMADOR</h3>
+                    <p>Sou programador e coloco amor em cada linha de código que escrevo. Minha paixão é transformar ideias em soluções digitais que fazem a diferença, sempre com foco na qualidade e na funcionalidade. Crio sites personalizados, aplicativos intuitivos, cartões de visita digitais e sistemas sob medida. Cada projeto é uma chance de unir criatividade e tecnologia para impactar pessoas e empresas. Vamos juntos dar vida às suas ideias?</p>
+                </div> <!--skills-boxs-->
+            </div>
+        </section><!--minhas-skills-->
+
+        <section class="portifolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <SPan>PORTIFOLIO</SPan></h2>
+                <div class="flex">
+                    <div class="img-import">
+                        <video class="vidiu" id="video1" src="videos/video 1.mp4" width="360" height="640"></video>
+                        <button class="play-pause-btn" onclick="playPause('video1')"><i class="fas fa-play"></i></button>
+                    </div>
+                    <div class="img-import">
+                        <video class="vidiu" id="video2" src="videos/video 3.mp4" width="360" height="640"></video>
+                        <button class="play-pause-btn" onclick="playPause('video2')"><i class="fas fa-play"></i></button>
+                    </div>
+                    <div class="img-import">
+                        <video class="vidiu" id="video3" src="videos/video 2.mp4" width="360" height="640"></video>
+                        <button class="play-pause-btn" onclick="playPause('video3')"><i class="fas fa-play"></i></button>
+                    </div><!--img-import-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portifolio-->
+
+        <section class="video-lado">
+            <div class="interface">
+                <div class="flex">
+                    <div class="video-import">
+                        <video class="vidiu" id="video4" src="videos/O MANUAL DE SOBREVIVÊNCIA AO ENSINO MÉDIO_(720P_HD).mp4" height="300"></video>
+                        <button class="play-pause-btn" onclick="playPause('video4')"><i class="fas fa-play"></i></button>
+                    </div>
+                    <div class="video-import">
+                        <video class="vidiu" id="video5" src="videos/De volta às aulas... (outra vez) se prepare comigo para a faculdade(720P_HD).mp4" height="300"></video>
+                        <button class="play-pause-btn" onclick="playPause('video5')"><i class="fas fa-play"></i></button>
+                    </div>
+        </section><!--video-lado-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FAÇA SEU <span>ORÇAMENTO!</span></h2>
+
+                <form action="">
+                    <input type="text" placeholder="Seu Nome:" required>
+                    <input type="email" placeholder="Seu E-mail:" required>
+                    <input type="text" placeholder="Seu WhatsApp:">
+                    <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+
+            </div>
+
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/LOGO.png" alt="">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="fa-brands fa-instagram"></i></button></a>
+                        <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
+                        <a href="#"><button><i class="fa-brands fa-youtube"></i></button></a>
+                        <a href="#"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+            <div class="line-footer borda">
+                <p>© 2025 EditForPrime. Todos os direitos reservados.</p>   
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    
+    <script src="Portifolio.js"></script>
+
+</body>
+</html>
